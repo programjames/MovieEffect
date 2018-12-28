@@ -8,7 +8,7 @@ pip install numpy
 pip install opencv-python
 ```
 
-My program removes the sound from the video, but there is an easy fix with the moviepy module. I have included this fix under "fixaudio.py". Often moviepy can be installed with the command:
+My program removes the sound from the video, but there is an easy fix with the moviepy module. I have included this fix under "fixaudio.py". It is important to not run this from the IDLE, but instead the terminal or command line (with `python fixaudio.py`). Often moviepy can be installed with the command:
 ```
 pip install moviepy
 ```
