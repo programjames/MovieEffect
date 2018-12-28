@@ -12,3 +12,5 @@ My program removes the sound from the video, but there is an easy fix with the m
 ```
 pip install moviepy
 ```
+
+My example videos on GitHub have very small resolution in order to fit the 25 MB limit.
