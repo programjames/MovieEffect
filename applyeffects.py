@@ -53,9 +53,7 @@ def replace_color_with_image(frame,background_color,background_image):
 ## The following is to make a "magic" finger look with the red fingertip.
 
 magic_touch=np.full(frame.shape,0.0)
-magic_touch=magic_touch
 add_to_touch=np.full(frame.shape,255)
-add_to_touch=add_to_touch
 
 lower_red=np.array([0,0,200])
 upper_red=np.array([75,125,255])
@@ -77,7 +75,7 @@ while vidcap.isOpened():
     success,frame = vidcap.read()
     if(type(frame)==type(None)):
         break
-    frame=frame
+    
     magic_touch=magic_touch/1.005
 
     frame=replace_color(frame,background_colors,background_variations,(0,0,0))
