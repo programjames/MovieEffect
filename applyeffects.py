@@ -6,7 +6,7 @@ pygame.init()
 video_name = 'edited.mp4'
 
 
-vidcap = cv2.VideoCapture('video.mts')
+vidcap = cv2.VideoCapture('video.mp4')
 background_colors=[(197,174,133),
                    (180,157,115),
                    (150,126,88),
